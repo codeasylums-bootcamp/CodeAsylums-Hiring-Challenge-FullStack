@@ -37,9 +37,6 @@ Tap on the link to get the detailed infographics of the technical prodigy that y
 ###### You will be provided maximum score only if the issue will be completely resolved. Partial scoring will be awarded in all other circumstances.
 
 ## Rules:
-- You can start the challenge at **10:00PM IST, 23 June 2020.**
-- **Maximum time duration of the challenge is 48hrs.**
-- No PRs will be accepted once the maximum time duration has been exceeded.
 - **Calculation of the final scores** will be based on the number of commits you will be able to merge related to issues.
 - The commits will be merged only when your code is found to be accurately relevant to the issue the commit is related to.
 - In case if more than one person is solving a single issue, **the best committed code will be merged**, FCF~~S~~M(First Commit First Merge) will not be entertained.
