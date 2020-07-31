@@ -39,7 +39,7 @@ Tap on the link to get the detailed infographics of the technical prodigy that y
 ## Rules:
 - **Calculation of the final scores** will be based on the number of commits you will be able to merge related to issues.
 - The commits will be merged only when your code is found to be accurately relevant to the issue the commit is related to.
-- In case if more than one person is solving a single issue, **the best committed code will be merged**, FCF~~S~~M(First Commit First Merge) will not be entertained.
+- In case if more than one person is solving a single issue, **the best committed code will be merged**, FCFM(First Commit First Merge) will not be entertained.
 
 ## For Doubts and Discussions:
 - You can comment on the issue itself.
