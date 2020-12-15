@@ -1,0 +1,121 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2.5%;
+}
+
+.titleDiv {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title span {
+    font-weight: 400;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.toggleWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleDiv div h1 {
+    color: white;
+    padding: 0px 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.line {
+    height: 40px;
+    width: 3px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.inactive {
+    opacity: 0.6;
+}
+
+.asynamite {
+    height: 47px;
+    padding-right: 10px;
+}
+
+.asynamiteDiv::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: white;
+}
+
+.contestWrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-self: end;
+}
+
+@media screen and (max-width:1700px) {
+    .contestWrapper {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .contestWrapper {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contestWrapper {
+        grid-template-columns: auto;
+    }
+
+    .asynamite {
+        height: 30px;
+    }
+
+    .asynamiteDiv::after {
+        width: 25px;
+    }
+
+    .title span {
+        font-size: 24px;
+    }
+
+    .titleDiv div h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .titleDiv {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .titleDiv div {
+        padding-bottom: 10px;
+    }
+
+    .title span {
+        padding-bottom: 20px;
+    }
+}
